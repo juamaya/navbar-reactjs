@@ -1,0 +1,57 @@
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.container1{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap:  20px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding:10px ;
+background: rgb(46, 45, 45);
+ border: 2px solid black;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.card h3{
+  color:white;
+  font: 2rem sans-serif;
+}
+.text{
+  color:white;
+}
+
+.text b{
+  color:yellowgreen;
+}
+.image{
+  width: 200px;
+  border-radius: 50%;
+}
+.btn1 {
+ 
+    padding: 10px;
+    background: rgb(54, 54, 211);
+    border-radius: 4rem;
+    box-shadow: 0 0 2rem blue;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .btn1:hover {
+    box-shadow: none;
+  }
